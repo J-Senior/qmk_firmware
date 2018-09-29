@@ -8,4 +8,3 @@ SYNCBRANCH=master;
 env -i git fetch $SOURCEBRANCH;
 env -i git checkout $SYNCBRANCH;
 env -i git rebase $SOURCEBRANCH/$SYNCBRANCH;
-echo "Run successful";
